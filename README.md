@@ -1,16 +1,18 @@
-# bumbread-theme-colored README
+# bumbread-theme-colored
 
-## Working with Markdown
+The second version of my theme, this one has more colors. It's not as pretty as before in terms of consistency, e.g. keeping selections red and the results of search results green, but it does have some of the same charm as one of the themes I found on the other marketplace.
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+Recommended settings.json additions:
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+```json
+{
+    "workbench.editor.decorations.colors": false,
+    "workbench.editor.decorations.badges": false,
+    "git.decorations.enabled": false,
+    "editor.bracketPairColorization.enabled": false,
+}
+```
 
-## For more information
+Theme preview:
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+![Preview theme](/preview.png)

@@ -25,10 +25,21 @@
 		"editorGroupHeader.tabsBackground": "#000000",
 		"tab.activeBackground": "#95A3B3",
 		"tab.activeForeground": "#333333",
-		"gitDecoration.ignoredResourceForeground": "#444444",
 		"tab.border": "#00000000",
 		"tab.inactiveForeground": "#aaaaaa",
 		"tab.inactiveBackground": "#000000",
+		// Reset git decoration colors, as these have higher precedence
+		// than ours for some reason
+		"gitDecoration.ignoredResourceForeground": "#bbbbbb",
+		"gitDecoration.addedResourceForeground": "#bbbbbb",
+		"gitDecoration.modifiedResourceForeground": "#bbbbbb",
+		"gitDecoration.deletedResourceForeground": "#bbbbbb",
+		"gitDecoration.stageModifiedResourceForeground": "#bbbbbb",
+		"gitDecoration.conflictingResourceForeground": "#bbbbbb",
+		"gitDecoration.untrackedResourceForeground": "#bbbbbb",
+		"gitDecoration.renamedResourceForeground": "#bbbbbb",
+		"gitDecoration.stageDeletedResourceForeground": "#bbbbbb",
+		"gitDecoration.submoduleResourceForeground": "#bbbbbb",
 		// Selections
 		"editor.selectionBackground": "#8286B088",
 		// Diff colors
