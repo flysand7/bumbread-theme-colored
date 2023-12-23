@@ -1,0 +1,21 @@
+{
+  "name": "bumbread-theme-colored",
+  "displayName": "bumbread-theme-colored",
+  "description": "A minimal black and white theme with minimal distractions and colors",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Bumbread's theme 2",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Bumbread's theme 2-color-theme.json"
+      }
+    ]
+  }
+}
